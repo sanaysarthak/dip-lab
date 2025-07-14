@@ -14,6 +14,16 @@ nbits = 2;
 levels = 2^nbits;
 steps = 1/levels;
 
-bins = floor(ad*steps);
+bins = floor(ad/steps);
 qv = (bins*steps) + (steps/2);
 qvimg = im2uint8(qv);
+
+subplot(1,2,1);
+imshow(qvimg);
+title('Quantized Image');
+
+subplot(1,2,2);
+histogram(qvimg(:), 'BinEdges', 0:256);
+title('Histogram of Quantized Image');
+xlabel('Pixel Value');
+ylabel('Frequency');
