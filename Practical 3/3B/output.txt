@@ -1,0 +1,6 @@
+MetaData Information:-
+Filename is C:\Users\UserName\Downloads\badminton.jpg
+Bit Depth is 24
+Format is jpg
+Color Type is truecolor
+File Size is 77813
