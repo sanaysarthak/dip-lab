@@ -1,26 +1,18 @@
 %{
 Practical 3-A
-Write a MATLAB program to display the histogram of a gray-scale image.
-Use the file 'cameraman.jpg' 
+Write a MATLAB program to Display Image metadata information.
+Use the file 'badminton.jpg' 
 %}
 
 clc;
 clear;
 close all;
 
-rgb = imread('badminton.jpg');
-gray = rgb2gray(rgb);
+i = imfinfo("badminton.jpg");
 
-figure;
-
-subplot(1,3,1);
-imshow(rgb);
-title('Original');
-
-subplot(1,3,2);
-imshow(gray);
-title('Gray-Scale Image');
-
-subplot(1,3,3);
-(imhist(gray));
-title('Histogram');
+fprintf("MetaData Information:-\n");
+fprintf("Filename is %s\n", i.Filename);
+fprintf("Bit Depth is %d\n", i.BitDepth);
+fprintf("Format is %s\n", i.Format);
+fprintf("Color Type is %s\n", i.ColorType)
+fprintf("File Size is %d\n", i.FileSize);
