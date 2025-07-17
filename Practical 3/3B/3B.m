@@ -1,17 +1,36 @@
 %{
 Practical 3-B
-Write a MATLAB program to display image metadata.
+Write a MATLAB program to perform Uniform Quantization.
+Use the file 'cameraman.jpeg' 
 %}
 
 clc;
 clear;
 close all;
 
-i = imfinfo("badminton.jpg");
+i = imread("cameraman.jpeg");
+ad = im2double(i);
 
-fprintf("MetaData Information:-\n");
-fprintf("Filename is %s\n", i.Filename);
-fprintf("Bit Depth is %d\n", i.BitDepth);
-fprintf("Format is %s\n", i.Format);
-fprintf("Color Type is %s\n", i.ColorType)
-fprintf("File Size is %d\n", i.FileSize);
+nbits = 4; % see the change in quantized histogram after tweaking the value of nbits
+levels = 2^nbits;
+steps = 1/levels;
+
+bins = floor(ad/steps);
+qv = (bins*steps)+(steps/2);
+qvimg = im2uint8(qv);
+
+subplot(2,2,1);
+imshow(i);
+title("Original Image");
+
+subplot(2,2,2);
+(imhist(i));
+title("Original Histogram")
+
+subplot(2,2,3);
+imshow(qvimg);
+title("Quantized Image");
+
+subplot(2,2,4);
+(imhist(qvimg));
+title("Quantized Histogram")
