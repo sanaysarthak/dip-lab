@@ -26,8 +26,8 @@ fprintf("2. Subtract two images. \n");
 fprintf("3. Multiply two images. \n");
 fprintf("4. Divide two images. \n");
 fprintf("5. Add image with constant value.\n");
-fprintf("4. Subtract image with constant value.\n");
-fprintf("6. Multiply image with a constant value. \n");
+fprintf("6. Subtract image with constant value.\n");
+fprintf("7. Multiply image with a constant value. \n");
 fprintf("8. Divide image with a constant value. \n");
 
 ch = input("\nEnter your choice (1-8): ");
