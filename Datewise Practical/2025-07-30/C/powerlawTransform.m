@@ -1,7 +1,7 @@
 %{
 Practical
 Write a MATLAB program to perform Power Law Transformation.
-Use the file 'spine.tif', 'tire.tif', and 'spine.tif'
+Use the file 'spine.tif', 'tire.tif', and 'chestXray.tif'
 %}
 
 img = imread('tire.tif');
