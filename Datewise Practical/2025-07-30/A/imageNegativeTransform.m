@@ -13,5 +13,5 @@ end
 img_negative = 255 - img;
 
 figure;
-subplot(2, 2, 1); imshow(img); title('Original Image');
-subplot(2, 2, 2); imshow(img_negative); title('Negative Image');
+subplot(1, 2, 1); imshow(img); title('Original Image');
+subplot(1, 2, 2); imshow(img_negative); title('Negative Image');
