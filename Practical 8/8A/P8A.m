@@ -1,6 +1,6 @@
 %{
 Practical 8-A
-Write a MATLAB program to perfrom contrast stretching.
+Write a MATLAB program to perform contrast stretching.
 Don't use any built-in functions. Use the mathematical equations or formula accordingly.
 Use the files 'low.tif', 'pout.tif', and 'spine.tif'
 %}

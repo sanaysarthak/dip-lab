@@ -1,6 +1,6 @@
 %{
 Practical 9-A
-Write a MATLAB program to perfrom bit-level slicing of an image.
+Write a MATLAB program to perform bit-level slicing of an image.
 Use the in-built command 'bitget()' to get individual bits.
 Showcase the output in a 2x4 grid.
 Use the files 'cameraman.jpeg'
