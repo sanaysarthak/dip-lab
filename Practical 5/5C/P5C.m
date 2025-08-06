@@ -9,6 +9,10 @@ AdaptiveHistEQ Image -> AdaptiveHistEQ Histogram
 Use the file 'foosball.png'
 %}
 
+clc;
+clear;
+close all;
+
 i = imread('foosball.png');
 
 if size(i,3) == 3
