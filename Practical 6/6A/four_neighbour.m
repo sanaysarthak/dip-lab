@@ -1,4 +1,8 @@
-% Write a program in MATLAB to find 4-neighbour of any row, column value given from the user.
+%{
+Practical 6-A
+Write a MATLAB program to find 4-neighbour of any row, column value given from the user.
+Use the file 'cameraman.jpeg'.
+%}
 
 clc;
 clear;
