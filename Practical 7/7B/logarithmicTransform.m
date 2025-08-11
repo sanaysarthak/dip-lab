@@ -4,6 +4,10 @@ Write a MATLAB program to perform image logarithmic transformation.
 Use the file 'pout.tif', 'chestXray.tif', and 'spine.tif'
 %}
 
+clc;
+clear;
+close all;
+
 files = {'pout.tif', 'chestXray.tif', 'spine.tif'};
 
 figure;
