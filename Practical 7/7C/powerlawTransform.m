@@ -4,6 +4,10 @@ Write a MATLAB program to perform Power Law Transformation.
 Use the file 'spine.tif', 'tire.tif', and 'chestXray.tif'
 %}
 
+clc;
+clear;
+close all;
+
 img = imread('tire.tif');
 img_double = double(img);
 
