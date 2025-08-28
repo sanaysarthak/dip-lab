@@ -1,6 +1,6 @@
 %{
 Practical 4-A
-Write a MATLAB program for Image Arithmetic Operations using 8 switch cases (Add two images, Add image with constant value, and so on.)
+Write a MATLAB program for Image Arithmetic Operations using 8 switch cases (Add two images, Add image with constant value, and so on.), and explain the result findings.
 Use the files 'badminton.jpg' and 'basketball.jpeg' 
 %}
 
