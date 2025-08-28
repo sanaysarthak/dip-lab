@@ -1,6 +1,6 @@
 %{
 Practical 1-B
-Write a MATLAB program to display RGB image along with its dimensions (rows, columns, and channels).
+Write a MATLAB program to Display RGB Image and show its dimensions.
 Use the file 'badminton.jpg' 
 %}
 

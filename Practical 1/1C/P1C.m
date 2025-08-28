@@ -1,6 +1,6 @@
 %{
 Practical 1-C
-Write a MATLAB program to convert RGB image to Grayscale image.
+Write a MATLAB program to convert RGB Image into Grayscale Image.
 Use the file 'badminton.jpg' 
 %}
 

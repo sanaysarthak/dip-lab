@@ -1,6 +1,6 @@
 %{
 Practical 1-A
-Write a MATLAB program to display and access pixel intensity values in grayscale image.
+Write a MATLAB program to Display and Access Pixel Intensity Values in Grayscale Image.
 Use the file 'cameraman.jpeg' 
 %}
 
