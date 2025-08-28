@@ -1,6 +1,6 @@
 %{
 Practical 2-A
-Write a MATLAB program to convert RGB to different color spaces.
+Write a MATLAB program for Conversion of RGB Image to Different Color Spaces and Display using Subplots.
 Use the file 'badminton.jpg' 
 %}
 
