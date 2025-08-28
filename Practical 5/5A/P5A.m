@@ -1,6 +1,7 @@
 %{
 Practical 5-A
-Write a MATLAB program for Image Rotation. Show the original image, 30, 60 and 90 degree image rotation in a 2x2 grid.
+Write a MATLAB program to perform Image Rotation. 
+Show the original image, 30, 60 and 90 degree image rotation in a 2x2 grid.
 Use the file 'car.jpeg'
 %}
 

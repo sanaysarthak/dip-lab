@@ -1,7 +1,7 @@
 %{
 Practical 5-A
-Write a MATLAB program to crop Images. Make a 2x2 grid and showcase
-original image, top-left crop, bottom-right crop, and center-crop Image.
+Write a MATLAB program to perform Image Cropping.
+Make a 2x2 grid and showcase: original image, top-left crop, bottom-right crop, and center-crop Image.
 Use the file 'car.jpeg'
 %}
 
